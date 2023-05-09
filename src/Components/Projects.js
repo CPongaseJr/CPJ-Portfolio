@@ -6,16 +6,14 @@ import { projects } from "../data";
 export default function Projects() {
     return (
         <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-          <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+          <div className="bg-gradient-to-r from-green-500 to-indigo-500 container px-5 py-10  text-center lg:px-40 mx-auto">
             <div className="flex flex-col w-full mb-20">
               <CodeIcon className="mx-auto inline-block w-10 mb-4" />
               <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                 Apps I've Built
               </h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-                facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-                fuga dolore.
+              <p className="text-black lg:w-2/3 mx-auto leading-relaxed text-base">
+                Take a glimps of some of my works. Understanding of development lifecycle, including working experience with Git/GitFlow, Pull Requests and Code Reviews.
               </p>
             </div>
             <div className="flex flex-wrap -m-4">

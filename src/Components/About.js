@@ -11,9 +11,8 @@ export default function About() {
                 apps.
               </h1>
               <p className="mb-8 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                Laborum, voluptas natus?
+              As a developer knows how to design, code, test, correct and document complex programs and program modifications from supplied specifications using agreed standards and tools, to achieve a well-engineered result. 
+              Takes part in reviews of own work.
               </p>
               <div className="flex justify-center">
                 <a
@@ -32,7 +31,7 @@ export default function About() {
               <img
                 className="object-cover object-center rounded"
                 alt="hero"
-                src="./jayr.png"
+                src="./jayr1.png"
               />
             </div>
           </div>
