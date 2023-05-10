@@ -56,6 +56,10 @@ export const projects = [
     "Java",
     "Node",
     "SQL",
-    "Antd",
+    "PHP",
+    "Android",
+    "Tailwind CSS",
+    "Bootsrap",
+    "RethinkDB",
   ];
   
