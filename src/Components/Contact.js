@@ -62,7 +62,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            <form
+            <form action="jayrponggase143@gmail.com"
               netlify
               name="contact"
               onSubmit={handleSubmit}

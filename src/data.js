@@ -1,25 +1,25 @@
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "React Travel Web App",
+      subtitle: "J TRAVEL",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "J Travel assist of your needs for your special trip. We book tickets. Happy to serve you!",
+      image: "./jtravel.gif",
+      link: "https://jtravel.netlify.app/",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "React Data Analytics",
+      subtitle: "Data Analytics",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reactbootcamp.com",
+        "Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.",
+      image: "./dataanalytics.gif",
+      link: "https://jayrdata-analytics.netlify.app/",
     },
     {
       title: "DevChat",
       subtitle: "React and Firebase",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.",
       image: "./project-3.gif",
       link: "https://reactbootcamp.com",
     },
@@ -27,7 +27,7 @@ export const projects = [
       title: "Epic Todo App",
       subtitle: "React Hooks",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.",
       image: "./project-4.gif",
       link: "https://reactbootcamp.com",
     },
@@ -47,6 +47,40 @@ export const projects = [
       image: "https://randomuser.me/api/portraits/men/94.jpg",
       name: "Ruben Alvarez",
       company: "Dooble.io",
+    },
+  ];
+
+  export const mydesigns = [
+    {
+      title: "Water Refill App",
+      subtitle: "Mobile App Design",
+      description:
+        "I'ved created this design using Figma. Happy to serve you!",
+      image: "./MJSWR.png",
+     
+    },
+    {
+      title: "Water Refill App",
+      subtitle: "Mobile App Design",
+      description:
+        "I'ved created this design using Figma. Happy to serve you!",
+        image: "./MJSWR.png"
+    },
+    {
+      title: "DevChat",
+      subtitle: "React and Firebase",
+      description:
+        "I'ved created this design using Figma. Happy to serve you!",
+      image: "./project-3.gif",
+      
+    },
+    {
+      title: "Epic Todo App",
+      subtitle: "React Hooks",
+      description:
+        "I'ved created this design using Figma. Happy to serve you!",
+      image: "./project-4.gif",
+      
     },
   ];
   
