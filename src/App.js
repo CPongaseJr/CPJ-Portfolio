@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Testimonials from "./Components/Testimonials";
-import MyDesigns from "./Components/Designs"
+import MyDesigns from "./Components/Designs";
 
 export default function App() {
   return (

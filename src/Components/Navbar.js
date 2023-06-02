@@ -1,15 +1,9 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaGooglePlus,
-  FaInstagram,
-  FaGithub,
-} from 'react-icons/fa';
+
 
 export default function Navbar() {
     return (
-        <header className="bg-gray-800 md:sticky top-0 z-10">
+        <header className="bg-gray-800 md:sticky top-0 z-10 scroll-smooth">
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <p className="title-font font-medium text-white mb-4 md:mb-0">
               <a href="#about" 
@@ -36,13 +30,7 @@ export default function Navbar() {
               </a>
             </nav>
 
-            <div className='flex justify-between py-2'>
-              <a href="https://www.facebook.com/jayrpongase/"><FaFacebookF className='mx-4 hover:scale-150 duration-300'/></a>
-              <a href="https://twitter.com/PongaseJ"><FaTwitter className='mx-4 hover:scale-150 duration-300'/></a>
-              <a href="mailto:catalinopongasejr@gmail.com"><FaGooglePlus className='mx-4 hover:scale-150 duration-300'/></a>
-              <a href="https://www.instagram.com/jayr_jigjig/"><FaInstagram className='mx-4 hover:scale-150 duration-300'/></a>
-              <a href="https://github.com/CPongaseJr"><FaGithub className='mx-4 hover:scale-150 duration-300'/></a>
-            </div>
+           
             <a
               href="#contact"
               className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
