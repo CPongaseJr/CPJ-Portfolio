@@ -21,7 +21,7 @@ export const projects = [
       description:
         "Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.",
       image: "./project-3.gif",
-      link: "https://reactbootcamp.com",
+      link: "#",
     },
     {
       title: "Epic Todo App",
@@ -29,7 +29,7 @@ export const projects = [
       description:
         "Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.",
       image: "./project-4.gif",
-      link: "https://reactbootcamp.com",
+      link: "#",
     },
   ];
   

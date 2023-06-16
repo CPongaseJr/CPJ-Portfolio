@@ -6,7 +6,7 @@ export default function Navbar() {
         <header className="bg-gray-800 md:sticky top-0 z-10 scroll-smooth">
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <p className="title-font font-medium text-white mb-4 md:mb-0">
-              <a href="#about" 
+              <a href="/" 
                  className="text-green-500 ml-3 text-xl">
                 Jayr
               </a>
@@ -24,9 +24,9 @@ export default function Navbar() {
                  className="mr-5 hover:text-white">
                 My Designs
               </a>
-              <a href="#testimonials" 
+              <a href="#aboutme" 
                  className="mr-5 hover:text-white">
-                Testimonials
+                About Me
               </a>
             </nav>
 

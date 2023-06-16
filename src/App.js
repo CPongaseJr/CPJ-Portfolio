@@ -4,8 +4,8 @@ import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
-import Testimonials from "./Components/Testimonials";
 import MyDesigns from "./Components/Designs";
+import AboutMe from "./Components/AboutMe";
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ export default function App() {
       <Projects />
       <Skills />
       <MyDesigns />
-      <Testimonials />
+      <AboutMe />
       <Contact />
     </main>
   );
