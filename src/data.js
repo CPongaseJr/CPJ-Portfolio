@@ -93,7 +93,7 @@ export const projects = [
     "PHP",
     "Android",
     "Tailwind CSS",
-    "Bootsrap",
+    "Bootstrap",
     "RethinkDB",
   ];
   

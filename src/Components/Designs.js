@@ -1,5 +1,5 @@
 
-import { CodeIcon } from "@heroicons/react/solid";
+import { CodeIcon, ChevronDoubleRightIcon } from "@heroicons/react/solid";
 import React from "react";
 import { mydesigns } from "../data";
 
@@ -10,7 +10,7 @@ export default function MyDesigns() {
             <div className="flex flex-col w-full mb-20">
               <CodeIcon className="mx-auto inline-block w-10 mb-4" />
               <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                Designs I've Created
+                My Designs
               </h1>
               <p className="text-black lg:w-2/3 mx-auto leading-relaxed text-base">
                 Take a glimps of some of my designs. Understanding of development lifecycle, including working experience with Git/GitFlow, Pull Requests and Code Reviews.
@@ -41,6 +41,13 @@ export default function MyDesigns() {
                 </a>
               ))}
             </div>
+            <div className="flex justify-center">
+                <a
+                  href="#moreDesigns" className="inline-flex items-center text-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+                  See more 
+                  <ChevronDoubleRightIcon className="w-4 h-4 ml-1" />
+                </a>
+                </div>
           </div>
         </section>
       );
